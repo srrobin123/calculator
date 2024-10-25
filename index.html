@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1011/1011863.png" type="image/x-icon">
+</head>
+<body class="flex justify-center items-center h-[100vh] m-0 bg-sky-500 font-sans">
+  <div class="w-72 rounded-lg overflow-hidden shadow-lg bg-[rgba(255,255,255,0.5)] backdrop-blur">
+    <input type="text" id="display" class="w-full p-5 text-2xl text-right border-none outline-none" disabled />
+    <div class="buttons grid grid-cols-4">
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="clearDisplay">AC</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="deleteLast">DEL</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="vag">/</button> 
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="gun">*</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="seven">7</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="eight">8</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="nine">9</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="beyog">-</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="four">4</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="five">5</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="six">6</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="jog">+</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="one">1</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="two">2</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="three">3</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="dot">.</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0]" id="zero">0</button>
+      <button class="p-5 text-xl cursor-pointer border-2 border-white bg-[#ddd] transition-colors hover:bg-[#f0f0f0] col-span-3" id="calculateResult">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
